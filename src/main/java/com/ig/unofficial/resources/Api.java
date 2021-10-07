@@ -22,8 +22,7 @@ public class Api {
     @GET
     @Consumes("application/json")
     @Path("video")
-    public Response video(@DefaultValue("https://www.instagram.com/reel/CMACHFzlbpr/?igshid=1nwch2nzxugai") @QueryParam("link") String link) throws IOException, IllegalArgumentException, IllegalAccessException, NoSuchFieldException {
-        Pojo pojo = new Pojo();
+    public Response video(@DefaultValue("https://www.instagram.com/p/CHFJkibFHuV/") @QueryParam("link") String link) throws IOException, IllegalArgumentException, IllegalAccessException, NoSuchFieldException {
         SSLCertificate.sslCertificate();
         if (link.isEmpty()) {
             return Response.status(200).entity("{\"status\" : \"REQUEST_DENIED\", \"video_link\" : \"NULL\"}").build();
