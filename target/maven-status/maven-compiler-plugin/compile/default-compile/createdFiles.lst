@@ -1,5 +1,8 @@
+com\ig\unofficial\resources\Constants.class
 com\ig\unofficial\resources\Funs.class
+com\ig\unofficial\resources\MainC.class
 com\ig\unofficial\JAXRSConfiguration.class
+com\ig\unofficial\resources\Data.class
 com\ig\unofficial\resources\SSLCertificate$1.class
 com\ig\unofficial\resources\Api.class
 com\ig\unofficial\resources\SSLCertificate.class
